@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+*.sqlite3
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Environment and config
+.env
+*.env
+
+# Editor-specific
+.vscode/
+.idea/
+
+# Local dev/test files
+docs.txt
+test.py
+
+# Byte-compiled cache directories (redundant safety)
+app/**/__pycache__/
